@@ -1,0 +1,52 @@
+*{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-family:' 苹方 Microsoft Yahei';font-size:10vw;-webkit-user-select:none;-webkit-appearance:none;height:100%;overflow:hidden;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:none}body{color:#323232;line-height:1.5;font-size:12px;height:100%;overflow:hidden}html[dpr='1'] body{font-size:12px}html[dpr='2'] body{font-size:24px}html[dpr='3'] body{font-size:36px}li{list-style:none}a{text-decoration:none}.a{display:block}u{text-decoration:none}.animate{-webkit-transform:transition3d(0,0,0);-ms-transform:transition3d(0,0,0);-moz-transform:transition3d(0,0,0);transform:transition3d(0,0,0)}.flex{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-moz-box;display:flex}.flex-column{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;flex-direction:column}
+.flex-row{ -webkit-flex-direction: row;-moz-flex-direction: row;-ms-flex-direction: row;-o-flex-direction: row; flex-direction:row; }
+.flex-justify{-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;-moz-box-pack:center;justify-content:center}
+.space-between{-webkit-box-pack:space-between;-webkit-justify-content:space-between;-ms-flex-pack:space-between;-moz-box-pack:space-between;justify-content:space-between}
+.flex-end{-webkit-box-pack:flex-end;-webkit-justify-content:flex-end;-ms-flex-pack:flex-end;-moz-box-pack:flex-end;justify-content:flex-end}.flex-items{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;-moz-box-align:center;align-items:center}.container{width:10rem;overflow:hidden;height:100%}.container.flex{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;flex-direction:column;-webkit-flex-direction:column}.globeBox.flex{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;flex-direction:column;-webkit-flex-direction:column;-webkit-box-flex:1;-ms-flex:1;-moz-box-flex:1;flex:1;-webkit-flex:1;overflow:hidden}.hidden{overflow:hidden}.absolute{position:absolute}.relative{position:relative}.scroll{overflow-y:scroll;-webkit-overflow-scrolling:touch}img{display:block;}input{background:0 0;-moz-appearance:none;appearance:none;-webkit-appearance:none;-moz-border-radius:2px;border-radius:2px;outline:0}.paragraphHidden{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;overflow:hidden}.pullTextLoding{text-align:center;line-height:0.4rem;border:none!important;-webkit-box-shadow:none!important;-moz-box-shadow:none!important;box-shadow:none!important;height:0.4rem!important;margin:0.1rem!important ;font-size:0.24!important;padding:0!important}.pullTextLoding .pullloading{display:inline-block;width:0.4rem;height:0.4rem;margin-right:0.106666rem;-moz-background-size:0.3rem;background-size:0.3rem;vertical-align:middle}header.globeHeader{-webkit-box-flex:0.8rem;-ms-flex:0.8rem 0 0;-moz-box-flex:0.8rem;flex:0.8rem 0 0;-webkit-flex:0.8rem 0 0;text-align:center;font-size:0.34rem;border-bottom:1px solid #ccc;line-height:0.8rem}header.globeHeader span.icon_share{font-size:0.6rem;right:0.24rem;padding:0 0.1rem}.Backoff{width:0.8rem;font-size:0.42rem;color:#000;left:0}.contentBox{-webkit-box-flex:1;-ms-flex:1;-moz-box-flex:1;flex:1;-webkit-flex:1;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.justify-end{-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;-moz-box-pack:end;justify-content:flex-end}.items-end{-webkit-box-align:end;-webkit-align-items:flex-end;-ms-flex-align:end;-moz-box-align:end;align-items:flex-end}#minTips{background:rgba(0,0,0,.6);color:#fff;position:fixed;padding:0.1rem 0.2rem;-moz-border-radius:0.08rem;border-radius:0.08rem;line-height:0.3rem;z-index:-1;opacity:0}#minTips.show{-moz-animation:fedein 3.6s forwards;animation:fedein 3.6s forwards;-webkit-animation:fedein 3.6s forwards}@-webkit-keyframes fedein{0%{opacity:1;z-index:9999}75%{z-index:9999;opacity:1}99%{opacity:0;z-index:9999}100%{z-index:-1}}@-moz-keyframes fedein{0%{opacity:1;z-index:9999}75%{z-index:9999;opacity:1}99%{opacity:0;z-index:9999}100%{z-index:-1}}@keyframes fedein{0%{opacity:1;z-index:9999}75%{z-index:9999;opacity:1}99%{opacity:0;z-index:9999}100%{z-index:-1}}.abcenter{position:absolute;z-index:999;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.shade{width:100vw;height:100vh;background:rgba(0,0,0,.3);left:0;top:0;z-index:9998}
+img{border: none;}.max-height{max-height:9999px!important;max-width: 9999px!important; }
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_274628_khp3o2elg6gpsyvi.eot');
+  src: url('//at.alicdn.com/t/font_274628_khp3o2elg6gpsyvi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_274628_khp3o2elg6gpsyvi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_274628_khp3o2elg6gpsyvi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_274628_khp3o2elg6gpsyvi.svg#iconfont') format('svg');
+}
+.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:0.2px;-moz-osx-font-smoothing:grayscale}.paragraphHidden2{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:5;overflow:hidden}h1,h2,h3,h4,h5,h6{font-weight:100}.flex-between{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+
+.flex1 {
+	/* -webkit-box-flex: 1;
+	-ms-flex: 1;
+	-moz-box-flex: 1;
+	flex: 1;
+  -webkit-flex: 1; */
+
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1 ;
+  flex: 1;
+}
+
+.animateTips{
+  background: rgba(0,0,0,0.8);
+  background-color: #f7f7f7;
+  font-size: .373333rem;
+  height:1.666667rem;
+  line-height: 1.666667rem;
+	color:#222;
+  padding-left: .64rem;
+  padding-right: .64rem;
+	border-radius: .106667rem;
+}
+.paddingBottom{
+  padding-bottom: 30px;
+
+}
+
+
+[v-cloak]{display: none;}
+
+
+
+/* project id 274628 */
